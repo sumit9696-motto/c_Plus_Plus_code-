@@ -6,7 +6,7 @@ int binarytodec(int binarys){
     while (binarys>0)
 
     {
-       int rem=binarys%2;
+       int rem=binarys%10;
         ans+=(rem*pow);
         binarys =binarys/10;
         pow=pow*2;
